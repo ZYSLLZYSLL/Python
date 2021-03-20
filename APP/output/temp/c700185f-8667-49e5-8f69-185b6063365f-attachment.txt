@@ -1,0 +1,23 @@
+INFO     log_ri_zhi.logHandler:basePage.py:34 首页-同意协议下的('id', 'com.tal.kaoyan:id/tip_commit')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:68 首页-同意协议下的('id', 'com.tal.kaoyan:id/tip_commit')元素点击成功
+INFO     log_ri_zhi.logHandler:basePage.py:34 首页-点击广告X下的('id', 'com.tal.kaoyan:id/view_wemedia_cacel')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:68 首页-点击广告X下的('id', 'com.tal.kaoyan:id/view_wemedia_cacel')元素点击成功
+INFO     log_ri_zhi.logHandler:basePage.py:34 首页-点击日程X下的('id', 'com.tal.kaoyan:id/kaoyan_home_schtip_close')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:68 首页-点击日程X下的('id', 'com.tal.kaoyan:id/kaoyan_home_schtip_close')元素点击成功
+INFO     log_ri_zhi.logHandler:basePage.py:34 我的页面-点击我的下的('id', 'com.tal.kaoyan:id/mainactivity_button_mysefl')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:68 我的页面-点击我的下的('id', 'com.tal.kaoyan:id/mainactivity_button_mysefl')元素点击成功
+INFO     log_ri_zhi.logHandler:basePage.py:34 我的页面-点击未登录下的('id', 'com.tal.kaoyan:id/activity_usercenter_username')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:68 我的页面-点击未登录下的('id', 'com.tal.kaoyan:id/activity_usercenter_username')元素点击成功
+INFO     log_ri_zhi.logHandler:basePage.py:34 登录页-点击使用密码验证登录下的('id', 'com.tal.kaoyan:id/login_code_touname')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:68 登录页-点击使用密码验证登录下的('id', 'com.tal.kaoyan:id/login_code_touname')元素点击成功
+INFO     log_ri_zhi.logHandler:basePage.py:34 登录页-输入账号下的('id', 'com.tal.kaoyan:id/login_email_edittext')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:87 登录页-输入账号下的('id', 'com.tal.kaoyan:id/login_email_edittext')元素输入15239938038成功
+INFO     log_ri_zhi.logHandler:basePage.py:34 登录页-输入密码下的('id', 'com.tal.kaoyan:id/login_password_edittext')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:87 登录页-输入密码下的('id', 'com.tal.kaoyan:id/login_password_edittext')元素输入bowen12345成功
+INFO     log_ri_zhi.logHandler:basePage.py:34 登录页-勾选同意协议下的('id', 'com.tal.kaoyan:id/login_treaty_checkbox_password')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:68 登录页-勾选同意协议下的('id', 'com.tal.kaoyan:id/login_treaty_checkbox_password')元素点击成功
+INFO     log_ri_zhi.logHandler:basePage.py:34 登录页-点击登录下的('id', 'com.tal.kaoyan:id/login_login_btn')元素找到了
+INFO     log_ri_zhi.logHandler:basePage.py:68 登录页-点击登录下的('id', 'com.tal.kaoyan:id/login_login_btn')元素点击成功
+INFO     log_ri_zhi.logHandler:basePage.py:37 登录页-toast文本下的('xpath', "//*[contains(@text,'账号')]")元素没找到，原因是Message: An element could not be located on the page using the given search parameters.
+
+INFO     log_ri_zhi.logHandler:basePage.py:126 获取登录页-toast文本下的('xpath', "//*[contains(@text,'账号')]")元素文本失败

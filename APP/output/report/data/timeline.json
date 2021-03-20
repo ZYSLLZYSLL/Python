@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Lenovo--ZYSLL",
+    "children" : [ {
+      "name" : "15420-MainThread",
+      "children" : [ {
+        "name" : "test_login_password_error",
+        "uid" : "18c0803f92ee3912",
+        "parentUid" : "22daea7752e6f0a913e028452e518a92",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615770053725,
+          "stop" : 1615770068688,
+          "duration" : 14963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22daea7752e6f0a913e028452e518a92"
+    } ],
+    "uid" : "952e8bb11cd167df563eb2b399a45c3d"
+  } ]
+}

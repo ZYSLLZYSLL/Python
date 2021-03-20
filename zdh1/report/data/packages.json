@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_mashang",
+    "children" : [ {
+      "name" : "test_01_baili[qqq]",
+      "uid" : "870bb8d688b06d4a",
+      "parentUid" : "10cfb10aac2025c73357bcb8a4bab194",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614502373882,
+        "stop" : 1614502373882,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'第一次'" ]
+    }, {
+      "name" : "test_01_baili[www]",
+      "uid" : "ca974a8aa196c3cf",
+      "parentUid" : "10cfb10aac2025c73357bcb8a4bab194",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614502373885,
+        "stop" : 1614502373885,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'第二次'" ]
+    }, {
+      "name" : "test_01_baili[eee]",
+      "uid" : "5f85a30ac6928a4a",
+      "parentUid" : "10cfb10aac2025c73357bcb8a4bab194",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614502373888,
+        "stop" : 1614502373888,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'第三次'" ]
+    }, {
+      "name" : "test_02_bw",
+      "uid" : "6da56dfbed03fd9f",
+      "parentUid" : "10cfb10aac2025c73357bcb8a4bab194",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614502373890,
+        "stop" : 1614502373890,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.test_mashang"
+  } ]
+}

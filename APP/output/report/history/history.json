@@ -1,0 +1,22 @@
+{
+  "887c51676d6b680a9a4eb9946092ca4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18c0803f92ee3912",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615770053725,
+        "stop" : 1615770068688,
+        "duration" : 14963
+      }
+    } ]
+  }
+}

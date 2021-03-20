@@ -1,0 +1,11 @@
+[ {
+  "uid" : "18c0803f92ee3912",
+  "name" : "test_login_password_error",
+  "time" : {
+    "start" : 1615770053725,
+    "stop" : 1615770068688,
+    "duration" : 14963
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
