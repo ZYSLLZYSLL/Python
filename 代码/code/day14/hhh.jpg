@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>图书馆-开封大学</title><META Name="keywords" Content="开封大学" />
+
+    <!--css-->
+    <link href="../../css/style.css" rel="stylesheet" type="text/css" />
+    <!--banner和navJS-->
+    <script src="../../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../../js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../../js/banner.js"></script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307e7a47565254574603060000 -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1009,'/content.jsp',1174,1316905716)</script>
+</head>
+
+<body>
+<div class="header">
+    <div class="width">
+        <div class="header_left"><a href="../../index.htm"><img src="../../images/logo.png"></a></div>
+        <div class="header_right">
+            <div class="ss">
+                 <!--#begineditable name="全文检索" viewid="131367" tagname="全文检索" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""--><script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode131367').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkeyword131367").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkeyword131367").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkeyword131367").value = base64.encode(document.getElementById("lucenenewssearchkeyword131367").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode131367"));
+        return true;
+    } 
+</script>
+
+
+
+<form class="search-form" action="../../ss_list.jsp?wbtreeid=1009" method="post" id="au0a" name="au0a" onsubmit="return _nl_ys_check()" target="_blank" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkeyword131367" name="lucenenewssearchkeyword" value=""><input type="hidden" id="_lucenesearchtype131367" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope131367" name="searchScope" value="1">
+                    <input name="showkeycode" id="showkeycode131367" type="text" class="ss_k" onfocus="if(this.value=='请输入关键词'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键词';}" value="请输入关键词">
+ <input type="image" src="../../images/ss_an.png" align="absmiddle" style="cursor: hand;padding-top:7px;padding-right:5px;">                  
+  
+                </form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+<!--#endeditable-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav">
+    <div id="menu">
+           <!--#begineditable name="网站导航" viewid="131368" tagname="网站导航" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""--> <ul class="menu">
+           
+            <li><a href="../../index.htm" target="_blank" class="parent"><span>首页</span></a>
+            </li>
+            <li><a href="../../xxgk/xxjj.htm" target="_blank" class="parent"><span>学校概况</span></a>
+                <div><ul>
+                    <li><a href="../../xxgk/xxjj.htm" target="_blank"><span>学校简介</span></a></li>
+                    <li><a href="../../xxgk/xrld.htm" target="_blank"><span>现任领导</span></a></li>
+                    <li><a href="../../xxgk/lrld.htm" target="_blank"><span>历任领导</span></a></li>
+                    <li><a href="../../xxgk/xdsh.htm" target="_blank"><span>校董事会</span></a></li>
+                    <li><a href="../../xxgk/xhxg.htm" target="_blank"><span>校徽校歌</span></a></li>
+                    <li><a href="../../xxgk/jxjsz.htm" target="_blank"><span>奖学金设置</span></a></li>
+                    <li><a href="../../xxgk/xyfg.htm" target="_blank"><span>校园风光</span></a></li>
+                </ul></div>
+            </li>
+            <li><a href="http://www.kfu.edu.cn/news/" target="_blank" class="parent"><span>新闻网</span></a>
+                <div><ul>
+                    <li><a href="../../xww/xxxw.htm" target="_blank"><span>学校新闻</span></a></li>
+                    <li><a href="../../xww/ybxw.htm" target="_blank"><span>院部新闻</span></a></li>
+                    <li><a href="../../xww/tzgg.htm" target="_blank"><span>通知公告</span></a></li>
+                    <li><a href="../../xww/mtkd.htm" target="_blank"><span>媒体开大</span></a></li>
+                    <li><a href="../../xww/xwzt.htm" target="_blank"><span>新闻专题</span></a></li>
+                    <li><a href="../../xww/xydt.htm" target="_blank"><span>校园动态</span></a></li>
+                </ul></div>
+            </li>
+            <li><a href="../../jgsz/dqbm.htm" target="_blank" class="parent"><span>机构设置</span></a>
+                <div><ul>
+                    <li><a href="../../jgsz/dqbm.htm" target="_blank"><span>党群部门</span></a></li>
+                    <li><a href="../../jgsz/xzbm.htm" target="_blank"><span>行政部门</span></a></li>
+                    <li><a href="../../jgsz/jxdw.htm" target="_blank"><span>教学单位</span></a></li>
+                    <li><a href="../../jgsz/jfbm.htm" target="_blank"><span>教辅部门</span></a></li>
+                </ul></div>
+            </li>
+            <li><a href="../../xwgk/yjsgk.htm" target="_blank" class="parent"><span>校务公开</span></a>
+                <div><ul>
+                    <li><a href="../../xwgk/yjsgk.htm" target="_blank"><span>预决算公开</span></a></li>
+                    <li><a href="../../xwgk/cbdcgk.htm" target="_blank"><span>成本调查公开</span></a></li>
+                    <li><a href="../../xwgk/rcpyfagk.htm" target="_blank"><span>人才培养方案公开</span></a></li>
+                </ul></div>
+            </li>
+            <li><a href="../../zsjy.htm" target="_blank" class="parent"><span>招生就业</span></a>
+            </li>
+            <li><a href="mailto:bgs@kfu.edu.cn" target="_blank" class="parent"><span>校长信箱</span></a>
+            </li>
+            <li><a href="../../gzfw.htm" target="_blank" class="parent"><span>公众服务</span></a>
+                <div><ul>
+                    <li><a href="http://211.84.240.41:81/" target="_blank"><span>网上办公(OA)</span></a></li>
+                    <li><a href="../../rjxz/kfdx_client2019.zip" target="_blank"><span>客户端软件下载</span></a></li>
+                    <li><a href="http://211.84.240.110:8080/selfservice/" target="_blank"><span>用户自助服务</span></a></li>
+                    <li><a href="ftp://ftp.kfu.edu.cn/" target="_blank"><span>FTP服务</span></a></li>
+                    <li><a href="http://mail.kfu.edu.cn" target="_blank"><span>邮件系统</span></a></li>
+                    <li><a href="http://www.kfu.edu.cn/szhglzx/" target="_blank"><span>网络服务</span></a></li>
+                    <li><a href="http://jwgl.kfu.edu.cn/jwc/" target="_blank"><span>教务管理</span></a></li>
+                    <li><a href="http://jpkc.kfu.edu.cn/jpkc/Root/" target="_blank"><span>精品课程</span></a></li>
+                    <li><a href="http://kfu.cuepa.cn/" target="_blank"><span>开封大学报</span></a></li>
+                    <li><a href="http://www.kfu.edu.cn/" target="_blank"><span>校友会</span></a></li>
+                    <li><a href="http://211.84.240.35:8080/selfservice/" target="_blank"><span>技术支持</span></a></li>
+                </ul></div>
+            </li>
+            <li><a href="../../zddt.htm" target="_blank"><span>站点地图</span></a></li>
+        </ul><!--#endeditable-->
+    </div>
+</div>
+<div class="banner"><img src="../../images/banner.png" width="1460" height="270"></div>
+<div class="main width">
+    <div class="ny_zb">
+    <div class="ny_zbbt"><span><!--#begineditable name="一级栏目" viewid="131384" tagname="一级栏目" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""-->学校概况<!--#endeditable--></span></div>
+    <div class="ny_zblb1">
+        <ul class="clearfix">
+            <!--#begineditable name="二级导航" viewid="131385" tagname="二级导航" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""--><li><a href="../../xxgk/xxjj.htm">学校简介</a></li>
+<li><a href="../../xxgk/xrld.htm">现任领导</a></li>
+<li><a href="../../xxgk/lrld.htm">历任领导</a></li>
+<li><a href="../../xxgk/xdsh.htm">校董事会</a></li>
+<li><a href="../../xxgk/xhxg.htm">校徽校歌</a></li>
+<li><a href="../../xxgk/jxjsz.htm">奖学金设置</a></li>
+<li><a class="cur" href="../../xxgk/xyfg.htm">校园风光</a></li>
+<!--#endeditable-->
+        </ul>
+    </div>
+</div>
+    <div class="nyright">
+     <div class="nyright_t"><!--#begineditable name="当前位置" viewid="131386" tagname="当前位置" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""-->    您的当前位置: 
+                        <a href="../../index.htm">首页</a>
+                >>
+                <a href="../../xxgk/xxjj.htm">学校概况</a>
+                >>
+                <a href="../../xxgk/xyfg.htm">校园风光</a>
+                >>
+                正文
+<!--#endeditable-->
+</div>
+      <div class="comt">
+      <!--#begineditable name="文章内容" viewid="131395" tagname="文章内容" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp="true"-->
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script type="text/javascript">NewsvoteDWR.getNewsLinkUrl(1174,'1316905716','vsb',newsSkip);function newsSkip(data){if(data != ""){window.location.href = data;}}</script><LINK href="/system/resource/js/photoswipe/3.0.5.1/photoswipe.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/js/photoswipe/3.0.5.1/klass.min.js"></script><LINK href="/system/resource/style/component/news/content/format2.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname"><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script>
+  <div class="ArticleTitle">图书馆</div>
+        <div class="ArticleMessage">作者：&nbsp;&nbsp;资料来源：
+     点击数：<script>_showDynClicks("wbnews", 1316905716, 1174)</script> 时间：2017-04-13</div>
+        <div class="brow_mm">
+    <div id="vsb_content_2"><div style="font-size:16pt;"><p class="vsbcontent_img">
+ <img alt="" src="/__local/7/BF/FC/EDF5F9387937FF0E96B7CC08423_A50812CC_5BA25.jpg" width="700" height="467" vsbhref="vurl" vurl="/_vsl/7BFFCEDF5F9387937FF0E96B7CC08423/A50812CC/5BA25?e=.jpg" vheight="467" vwidth="700" orisrc="/__local/7/BF/FC/EDF5F9387937FF0E96B7CC08423_A50812CC_5BA25.jpg" class="img_vsb_content"></p></div>
+<div>上一篇：<a href="7795.htm">图书馆</a></div>
+<div>下一篇：<a href="1173.htm">行政楼</a></div>
+<div class="share">
+<br /><br />
+<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_people" data-cmd="people" title="分享到人民微博"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{},"image":{"viewList":["weixin","sqq","qzone","tsina","tqq","renren","people"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["weixin","sqq","qzone","tsina","tqq","renren","people"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+</div>
+<div id="div_vote_id"></div>
+    
+
+
+
+
+</div>
+</div>
+</form><!--#endeditable-->
+    </div>
+    </div>
+<div class="clear"></div>
+</div>
+
+<div class="clear"></div>
+<div class="f">
+    <div class="width">
+        <div class="f_l"><a href="../../index.htm"><img src="../../images/f_logo.png"></a></div>
+        <div class="sydw"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='http://dcs.conac.cn/js/17/252/0000/40555486/CA172520000405554860001.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+        <div class="f_c">
+     <!--#begineditable name="版权" viewid="131382" tagname="版权" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""--><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<table style="width: 588px;"><tbody><tr class="firstRow"><td style="word-break: break-all"><p style="width:650px;">©2011 地址:中国 河南 开封 东京大道 &nbsp;&nbsp;邮编:475004 &nbsp;All Rights Reserverd<br />电话:0371-23810013 招生电话:0371-23655001<br />传真:0371-23857112&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;豫ICP备<a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=DBjhPOhtJrNgAk3IYgJXRGPRxDLv67ACRH3u5ORvQl7C1v7765Gi!-736616813" target="_blank" style="text-decoration: underline; color: rgb(255, 255, 255);"><span style="text-decoration: underline; color: rgb(255, 255, 255);">19004273</span></a>号</p></td></tr></tbody></table><!--#endeditable-->
+       <p> 总访问量<!--#begineditable name="访问量" viewid="131381" tagname="访问量" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""--><script language="javascript" src="../../_dwr/util.js"></script><script language="javascript" src="../../_dwr/interface/PageCounterDWR.js"></script><span id="a131381" name="a131381"></span>   
+
+<script>
+function getvisittimea131381()
+{       
+    PageCounterDWR.getVisittime('1316905716','1009','IP_TOTAL','3140310','7',callbackdataa131381)
+}
+function callbackdataa131381(data)
+{
+    document.getElementById("a131381").innerHTML = data; 
+}
+getvisittimea131381();
+</script><!--#endeditable-->次</p>
+    </div>
+        <div class="f_r"><!--#begineditable name="微信" viewid="131392" tagname="微信" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""-->    
+
+  
+<img src="../../images/16/11/24/17cffm3b6h/ewm.jpg"><br />微信    <!--#endeditable--></div>
+    </div>
+</div>
+</body>
+</html>

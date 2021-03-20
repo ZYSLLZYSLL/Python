@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../老师的讲课代码/.idea/b_2011_code.iml" filepath="$PROJECT_DIR$/../老师的讲课代码/.idea/b_2011_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/code.iml" filepath="$PROJECT_DIR$/.idea/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hei_ma/.idea/hei_ma.iml" filepath="$PROJECT_DIR$/../hei_ma/.idea/hei_ma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../Python/zdh/.idea/zdh.iml" filepath="$PROJECT_DIR$/../../../../../Python/zdh/.idea/zdh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../课外/.idea/课外.iml" filepath="$PROJECT_DIR$/../课外/.idea/课外.iml" />
+    </modules>
+  </component>
+</project>

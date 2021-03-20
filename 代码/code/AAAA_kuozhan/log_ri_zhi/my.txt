@@ -1,0 +1,24 @@
+DEBUG:root:这是debug
+INFO:root:这是info
+WARNING:root:这是waring
+ERROR:root:这是error
+CRITICAL:root:这是critical
+DEBUG:root:这是debug
+2021-03-03 11:37:42,223 log_01.py[line:13] DEBUG 这是debug
+2021-03-03 11:37:42,223 log_01.py[line:14] INFO 这是info
+2021-03-03 11:37:42,223 log_01.py[line:15] WARNING 这是waring
+2021-03-03 11:37:42,224 log_01.py[line:16] ERROR 这是error
+2021-03-03 11:37:42,224 log_01.py[line:17] CRITICAL 这是critical
+2021-03-03 11:37:42,224 log_01.py[line:20] DEBUG 这是debug
+2021-03-03 11:39:38,836 log_01.py[line:13] DEBUG 这是debug
+2021-03-03 11:39:38,836 log_01.py[line:14] INFO 这是info
+2021-03-03 11:39:38,836 log_01.py[line:15] WARNING 这是waring
+2021-03-03 11:39:38,837 log_01.py[line:16] ERROR 这是error
+2021-03-03 11:39:38,837 log_01.py[line:17] CRITICAL 这是critical
+2021-03-03 11:39:38,837 log_01.py[line:20] DEBUG 这是debug
+2021-03-03 11:40:13,552 log_01.py[line:13] DEBUG 这是debug
+2021-03-03 11:40:13,553 log_01.py[line:19] INFO 这是info
+2021-03-03 11:40:13,553 log_01.py[line:20] WARNING 这是waring
+2021-03-03 11:40:13,553 log_01.py[line:21] ERROR 这是error
+2021-03-03 11:40:13,553 log_01.py[line:22] CRITICAL 这是critical
+2021-03-03 11:40:13,553 log_01.py[line:25] DEBUG 这是debug

@@ -1,0 +1,13 @@
+grangfather:
+  name: 张二
+  age: 100
+  next:
+     father:
+       -
+         name: 张三
+         age: 55
+         son: 张小真
+     mother:
+       -
+         name: 李四
+         age: 50

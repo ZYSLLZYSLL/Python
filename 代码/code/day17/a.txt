@@ -1,0 +1,45 @@
+时间：2021-01-22 11:38:42
+              total        used        free      shared  buff/cache   available
+Mem:         995676      756232       71744       19044      167700       74696
+Swap:       2097148      232448     1864700
+
+时间：2021-01-22 11:38:43
+              total        used        free      shared  buff/cache   available
+Mem:         995676      756256       71680       19056      167740       74636
+Swap:       2097148      232448     1864700
+
+时间：2021-01-22 11:38:44
+              total        used        free      shared  buff/cache   available
+Mem:         995676      756320       71584       19076      167772       74544
+Swap:       2097148      232448     1864700
+
+时间：2021-01-22 11:38:55
+              total        used        free      shared  buff/cache   available
+Mem:         995676      756448       71448       19080      167780       74416
+Swap:       2097148      232448     1864700
+
+时间：2021-01-22 11:38:59
+              total        used        free      shared  buff/cache   available
+Mem:         995676      756528       71340       19092      167808       74312
+Swap:       2097148      232192     1864956
+
+时间：2021-01-22 11:39:43
+              total        used        free      shared  buff/cache   available
+Mem:         995676      756296       71556       19096      167824       74532
+Swap:       2097148      232192     1864956
+
+时间：2021-01-22 11:39:46
+              total        used        free      shared  buff/cache   available
+Mem:         995676      756372       71464       19104      167840       74444
+Swap:       2097148      232192     1864956
+
+时间：2021-01-22 11:39:50
+              total        used        free      shared  buff/cache   available
+Mem:         995676      756388       71432       19116      167856       74416
+Swap:       2097148      232192     1864956
+
+时间：2021-01-22 11:39:53
+              total        used        free      shared  buff/cache   available
+Mem:         995676      756352       71464       19108      167860       74456
+Swap:       2097148      232192     1864956
+
