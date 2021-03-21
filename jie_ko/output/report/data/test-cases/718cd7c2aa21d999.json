@@ -1,0 +1,84 @@
+{
+  "uid" : "718cd7c2aa21d999",
+  "name" : "test_01[biaozhendianma0]",
+  "fullName" : "test_01#test_01",
+  "historyId" : "f69380639de54097a811b043ada4ef06",
+  "time" : {
+    "start" : 1616320177846,
+    "stop" : 1616320177846,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "biaozhendianma",
+    "time" : {
+      "start" : 1616320177675,
+      "stop" : 1616320177846,
+      "duration" : 171
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "11bffcdab0670ea4",
+      "name" : "log",
+      "source" : "11bffcdab0670ea4.txt",
+      "type" : "text/plain",
+      "size" : 109
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo--ZYSLL"
+  }, {
+    "name" : "thread",
+    "value" : "20536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "biaozhendianma",
+    "value" : "('229bb81cac0b96ed627afe1362b6ba2c', '周宇')"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "718cd7c2aa21d999.json",
+  "parameterValues" : [ "('229bb81cac0b96ed627afe1362b6ba2c', '周宇')" ]
+}

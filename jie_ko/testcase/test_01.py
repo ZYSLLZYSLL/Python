@@ -9,10 +9,8 @@ import requests
 
 
 def test_01(biaozhendianma):
-    # res = requests.get(biaozhendianma[0], params=biaozhendianma[1])
-    # print(res)
-    assert "周" in biaozhendianma
-    # print(biaozhendianma)
+    res, key, chars = biaozhendianma
+    assert chars[1] in res.text
 
 
 if __name__ == '__main__':

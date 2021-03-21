@@ -11,8 +11,9 @@ import yaml
 def readYaml(path):
     # "desired_capabilities.yml"
     with open(path, "r", encoding='utf-8') as f:
-        # yaml.safe_load(f)
-        return yaml.load(f, Loader=yaml.FullLoader)
+        data = yaml.safe_load(f)
+    a = list(zip(data["key"], data["chars"]))
+    return a
 
 
 # 写
