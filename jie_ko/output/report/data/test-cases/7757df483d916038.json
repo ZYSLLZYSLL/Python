@@ -1,0 +1,92 @@
+{
+  "uid" : "7757df483d916038",
+  "name" : "test_01[z_m0]",
+  "fullName" : "test_01#test_01",
+  "historyId" : "968b45aa30a8787034d2c8f52d0434e7",
+  "time" : {
+    "start" : 1616383673446,
+    "stop" : 1616383673446,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: string index out of range",
+  "statusTrace" : "z_m = (<Response [200]>, '229bb81cac0b96ed627afe1362b6ba2', '')\n\n    def test_01(z_m):\n        res, key, chars = z_m\n        print(res.text)\n>       assert chars[1] in res.text\nE       IndexError: string index out of range\n\ntest_01.py:14: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "z_m",
+    "time" : {
+      "start" : 1616383673274,
+      "stop" : 1616383673446,
+      "duration" : 172
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: string index out of range",
+    "statusTrace" : "z_m = (<Response [200]>, '229bb81cac0b96ed627afe1362b6ba2', '')\n\n    def test_01(z_m):\n        res, key, chars = z_m\n        print(res.text)\n>       assert chars[1] in res.text\nE       IndexError: string index out of range\n\ntest_01.py:14: IndexError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d2f4d88e846f7bc8",
+      "name" : "log",
+      "source" : "d2f4d88e846f7bc8.txt",
+      "type" : "text/plain",
+      "size" : 102
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo--ZYSLL"
+  }, {
+    "name" : "thread",
+    "value" : "21548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "z_m",
+    "value" : "('229bb81cac0b96ed627afe1362b6ba2', '')"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7757df483d916038.json",
+  "parameterValues" : [ "('229bb81cac0b96ed627afe1362b6ba2', '')" ]
+}

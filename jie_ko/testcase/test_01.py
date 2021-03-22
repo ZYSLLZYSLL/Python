@@ -8,9 +8,16 @@ import pytest
 import requests
 
 
-def test_01(biaozhendianma):
-    res, key, chars = biaozhendianma
+def test_01(z_m):
+    res, key, chars = z_m
+    print(res.text)
     assert chars[1] in res.text
+
+
+# def test_02(m_z):
+#     res, key, telecodes = m_z
+#     print(res.text)
+#     assert telecodes[0] in res.text
 
 
 if __name__ == '__main__':

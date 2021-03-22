@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "IndexError: string index out of range",
+      "children" : [ {
+        "name" : "test_01[z_m0]",
+        "uid" : "7757df483d916038",
+        "parentUid" : "37463867a799a612c7fbd72ec2e9c2fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616383673446,
+          "stop" : 1616383673446,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('229bb81cac0b96ed627afe1362b6ba2', '')" ]
+      } ],
+      "uid" : "37463867a799a612c7fbd72ec2e9c2fa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

@@ -1,38 +1,20 @@
 {
-  "f69380639de54097a811b043ada4ef06" : {
+  "968b45aa30a8787034d2c8f52d0434e7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "718cd7c2aa21d999",
-      "status" : "passed",
+      "uid" : "7757df483d916038",
+      "status" : "broken",
+      "statusDetails" : "IndexError: string index out of range",
       "time" : {
-        "start" : 1616320177846,
-        "stop" : 1616320177846,
-        "duration" : 0
-      }
-    } ]
-  },
-  "0e91195a24720e3ef259435d16220e34" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "640b049a7b595ee2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1616320177971,
-        "stop" : 1616320177971,
+        "start" : 1616383673446,
+        "stop" : 1616383673446,
         "duration" : 0
       }
     } ]

@@ -38,9 +38,9 @@ class TimedDeleteOutput:
         :param filename: 要清空的文件夹名字
         :return:
         """
-        time.sleep(0.01)
+        time.sleep(0.05)
         os.popen(f'rd /s/q ..\output\{filename}')
-        time.sleep(0.01)
+        time.sleep(0.05)
         os.popen(f'mkdir ..\output\{filename}')
 
     def run(self):
@@ -51,7 +51,6 @@ class TimedDeleteOutput:
         if os.path.exists(self.path):
             with open(self.path, "r", encoding='utf-8') as f:
                 current = float(f.readline()[:-1])  # 文件里的时间
-                print(current)
                 jingGuotime = float(self.t) - current  # 和文件夹里面时间相比过了多久（秒）
 
                 shengyu_time = (3 * 86400) - jingGuotime  # 剩余总秒数
@@ -63,7 +62,7 @@ class TimedDeleteOutput:
 
                 print(f"剩余{d}天{h}个小时{f}分钟{s}秒后清除output文件内容")
 
-                if jingGuotime > (3 * 86400):  # 时间
+                if jingGuotime > (3 * 1):  # 时间
                     dir_list = os.listdir("../output")  # 遍历output下文件
                     for i in dir_list[0:-1]:
                         self.removeMkdir(i)

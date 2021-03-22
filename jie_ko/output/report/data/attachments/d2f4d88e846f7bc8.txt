@@ -1,0 +1,1 @@
+INFO     common.basePage:conftest.py:21 当前测试的是key=229bb81cac0b96ed627afe1362b6ba2，chars=

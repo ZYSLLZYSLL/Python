@@ -3,35 +3,22 @@
   "children" : [ {
     "name" : "Lenovo--ZYSLL",
     "children" : [ {
-      "name" : "20536-MainThread",
+      "name" : "21548-MainThread",
       "children" : [ {
-        "name" : "test_01[biaozhendianma0]",
-        "uid" : "718cd7c2aa21d999",
-        "parentUid" : "da8c7d37e14e71768de82703f60c5c14",
-        "status" : "passed",
+        "name" : "test_01[z_m0]",
+        "uid" : "7757df483d916038",
+        "parentUid" : "02858a93784d923815864ade5b033819",
+        "status" : "broken",
         "time" : {
-          "start" : 1616320177846,
-          "stop" : 1616320177846,
+          "start" : 1616383673446,
+          "stop" : 1616383673446,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "('229bb81cac0b96ed627afe1362b6ba2c', '周宇')" ]
-      }, {
-        "name" : "test_01[biaozhendianma1]",
-        "uid" : "640b049a7b595ee2",
-        "parentUid" : "da8c7d37e14e71768de82703f60c5c14",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616320177971,
-          "stop" : 1616320177971,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "('229bb81cac0b96ed627afe1362b6ba2c', '博文')" ]
+        "parameters" : [ "('229bb81cac0b96ed627afe1362b6ba2', '')" ]
       } ],
-      "uid" : "da8c7d37e14e71768de82703f60c5c14"
+      "uid" : "02858a93784d923815864ade5b033819"
     } ],
     "uid" : "952e8bb11cd167df563eb2b399a45c3d"
   } ],

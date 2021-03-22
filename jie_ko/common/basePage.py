@@ -8,21 +8,23 @@ import logging
 import time
 
 
-class BasePage:
-    def systemTime(self):
-        # 时间戳中不能有冒号
-        t = time.strftime("%Y-%m-%d %H-%M-%S", time.localtime()).split("-")
-        t2 = t[2].split(" ")
-        s = f"{t[0]}年{t[1]}月{t2[0]}日{t2[1]}时{t[3]}分{t[4]}秒"
-        logname = f"{t[0]}年{t[1]}月{t2[0]}日"
-        return logname
+def systemTime():
+    # 时间戳中不能有冒号
+    t = time.strftime("%Y-%m-%d %H-%M-%S", time.localtime()).split("-")
+    t2 = t[2].split(" ")
+    s = f"{t[0]}年{t[1]}月{t2[0]}日{t2[1]}时{t[3]}分{t[4]}秒"
+    logname = f"{t[0]}年{t[1]}月{t2[0]}日"
+    return logname
+
+def jiami(x):
+    return "20" + oct(int(str(x)[2:]) * 1000)[2:]
 
 class LogHandler:
     """
         日志，输出到文件，输出到控制台
     """
     # 日志存放路径
-    filenamePath = f"../output/log/{BasePage().systemTime()}.log"
+    filenamePath = f"../output/log/{systemTime()}.log"
     # 创建一个logging对象，收集日志
     logger = logging.getLogger(__name__)
     # 设置日志等级

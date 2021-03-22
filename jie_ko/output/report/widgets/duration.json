@@ -1,21 +1,11 @@
 [ {
-  "uid" : "718cd7c2aa21d999",
-  "name" : "test_01[biaozhendianma0]",
+  "uid" : "7757df483d916038",
+  "name" : "test_01[z_m0]",
   "time" : {
-    "start" : 1616320177846,
-    "stop" : 1616320177846,
+    "start" : 1616383673446,
+    "stop" : 1616383673446,
     "duration" : 0
   },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "640b049a7b595ee2",
-  "name" : "test_01[biaozhendianma1]",
-  "time" : {
-    "start" : 1616320177971,
-    "stop" : 1616320177971,
-    "duration" : 0
-  },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]
