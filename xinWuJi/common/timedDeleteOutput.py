@@ -14,14 +14,16 @@ from common.allPathSet import AllPathSet
 
 
 class TimedDeleteOutput:
-    t = time.time()
+    def __init__(self):
+        self.t = time.time()
+        self.path = "../common/LastTime.txt"
 
     def writeTime(self):
         """
         把时间写入文件
         :return:
         """
-        with open("../common/t.txt", "w", encoding='utf-8') as f:
+        with open(self.path, "w", encoding='utf-8') as f:
             f.write(str(self.t))
             f.write('\n')
             f.write("文件保存时间：")
@@ -36,9 +38,9 @@ class TimedDeleteOutput:
         :param filename: 要清空的文件夹名字
         :return:
         """
-        time.sleep(0.01)
+        time.sleep(0.05)
         os.popen(f'rd /s/q {AllPathSet.REMOVE_MKDIR}\{filename}')
-        time.sleep(0.01)
+        time.sleep(0.05)
         os.popen(f'mkdir {AllPathSet.REMOVE_MKDIR}\{filename}')
 
     def run(self):
@@ -46,8 +48,8 @@ class TimedDeleteOutput:
         判断时间是否超过三天，超过就清空文件夹
         :return:
         """
-        if os.path.exists("../common/t.txt"):
-            with open("../common/t.txt", "r", encoding='utf-8') as f:
+        if os.path.exists(self.path):
+            with open(self.path, "r", encoding='utf-8') as f:
                 current = float(f.readline()[:-1])  # 文件里的时间
                 jingGuotime = float(self.t) - current  # 和文件夹里面时间相比过了多久（秒）
 
@@ -62,6 +64,7 @@ class TimedDeleteOutput:
 
                 if jingGuotime > (3 * 86400):  # 时间
                     dir_list = os.listdir("../output")  # 遍历output下文件
+                    # print(dir_list)
                     for i in dir_list[0:-1]:
                         self.removeMkdir(i)
 
